@@ -1,6 +1,6 @@
 % Test Script
 
-N = 20;
+N = 5;
 M = 5;
 f = @(x) sin(20*x);
 %f = @(x) sin(3*x).*cos(8*x + 0.3);
