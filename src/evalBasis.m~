@@ -1,0 +1,22 @@
+function y = evalBasis( x, index, ndim )
+
+i = index - 1;
+if( i == 0 )
+    y = 1;
+elseif( i < ndim )
+    y = x(i);
+else
+    i = i - ndim;
+    L = ndim;
+    coun
+    while( i > L )
+        i = i - L;
+        L = L - 1;
+    end
+    
+    
+end
+    
+
+
+end
